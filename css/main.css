@@ -16,13 +16,18 @@ a {
 .title {
   font-size: 1.1rem;
   font-weight: 500;
-  padding: 1rem 0; }
+  padding: 0.7rem 0; }
 
 .light-text {
   font-size: 0.9rem;
   color: #606779; }
 
-.like-dislike-icon {
+.small-light-text {
+  font-size: 0.8rem;
+  font-weight: 550;
+  color: #70798f; }
+
+.small-icon {
   width: 20px;
   margin: 0 0.5rem 0 0; }
 
@@ -58,7 +63,7 @@ a {
     border-radius: 0 2px 2px 0;
     border: 1px solid #ccc;
     border-left: none;
-    background: whitesmoke; }
+    background: #faf7f7; }
     #navbar-middle .search-btn .search-icon {
       width: 20px; }
 
@@ -80,12 +85,26 @@ path {
 #video-section {
   padding: 1.5rem 1rem 0 4.25rem;
   display: inline-block; }
+  #video-section iframe {
+    margin-bottom: 0.5rem; }
 
 #vid-info {
   display: flex;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-between;
+  border-bottom: 1px solid #e0e0e0; }
   #vid-info .vid-info-left {
     display: flex; }
     #vid-info .vid-info-left p {
-      padding: 0 0.5rem 0 0; }
+      padding: 0 0.25rem 0 0; }
+  #vid-info .vid-info-right {
+    display: flex; }
+    #vid-info .vid-info-right div {
+      display: flex;
+      border-bottom: 2px solid dodgerblue;
+      width: 10.75rem;
+      margin-right: 1rem; }
+    #vid-info .vid-info-right a {
+      padding: 0 1.5rem 1rem 0; }
+      #vid-info .vid-info-right a .some-icon {
+        margin: 0; }
