@@ -13,23 +13,51 @@ a {
   display: flex;
   align-items: flex-end; }
 
-.title {
+.title-l {
   font-size: 1.1rem;
   font-weight: 500;
-  padding: 0.7rem 0; }
+  padding: 0.7rem 0;
+  color: #230303; }
+
+.title-m {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.25rem 0;
+  color: #230303; }
+
+.title-s {
+  font-size: 0.9rem;
+  font-weight: 550;
+  padding: 0.25rem 0;
+  color: #230303; }
 
 .light-text {
   font-size: 0.9rem;
   color: #606779; }
+
+.normal-text {
+  font-size: 0.925rem; }
 
 .small-light-text {
   font-size: 0.8rem;
   font-weight: 550;
   color: #70798f; }
 
+.xsmall-light-text {
+  font-size: 0.8rem;
+  color: #434956; }
+
 .small-icon {
   width: 20px;
   margin: 0 0.5rem 0 0; }
+
+.btn-l {
+  padding: 10px 16px;
+  background: #cc0000;
+  color: #fff;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 3px; }
 
 #main-nav {
   display: flex;
@@ -76,11 +104,19 @@ path {
   color: red; }
 
 .user-pic {
-  background: brown;
+  background: fuchsia;
   width: 32px;
   height: 32px;
   border-radius: 50%;
   margin: 0 0 0 1rem; }
+
+.user-pic-m {
+  background: forestgreen;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin: 0 0.5rem 0 0;
+  display: inline-block; }
 
 #video-section {
   padding: 1.5rem 1rem 0 4.25rem;
@@ -101,10 +137,88 @@ path {
     display: flex; }
     #vid-info .vid-info-right div {
       display: flex;
-      border-bottom: 2px solid dodgerblue;
-      width: 10.75rem;
+      padding: 0 0.6rem;
+      border-bottom: 2px solid #069ee5;
+      width: 10rem;
       margin-right: 1rem; }
     #vid-info .vid-info-right a {
-      padding: 0 1.5rem 1rem 0; }
+      padding: 0 1.5rem 1rem 0;
+      color: #606779; }
       #vid-info .vid-info-right a .some-icon {
         margin: 0; }
+
+.channel-pic {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #648417;
+  display: inline-block;
+  margin: 1rem 1rem 0 0; }
+
+#vid-description {
+  width: 911px;
+  border-bottom: 1px solid #ccc; }
+  #vid-description #top-desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    #vid-description #top-desc #desc-left {
+      display: flex;
+      align-items: center; }
+  #vid-description #description {
+    margin: 0.8rem 0 0 64px; }
+    #vid-description #description p {
+      padding: 0 0 1.5rem 0; }
+
+#comment-section {
+  margin: 0 0 0 4.25rem;
+  width: 911px; }
+
+#my-comment {
+  margin-bottom: 2rem; }
+  #my-comment #my-comment-top {
+    display: flex;
+    align-items: center; }
+    #my-comment #my-comment-top div {
+      display: flex;
+      align-items: center;
+      margin: 0 0 0 1.25rem; }
+  #my-comment #my-comment-bottom {
+    display: flex;
+    margin: 0 0 1rem 0; }
+    #my-comment #my-comment-bottom div {
+      margin: 0 0.25rem 0rem 0;
+      background: fuchsia; }
+    #my-comment #my-comment-bottom input {
+      padding: 0.25rem;
+      font-size: 0.9rem;
+      background: #fafafa;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      width: 100%; }
+
+.comment {
+  display: flex;
+  margin: 1rem 0; }
+  .comment .user-pic-m {
+    width: 47.24px; }
+  .comment .comment-lvl0 {
+    display: flex;
+    align-items: center; }
+    .comment .comment-lvl0 p {
+      margin: 0 0.5rem 0 0; }
+  .comment .comment-lvl2 {
+    margin: 0.75rem 0;
+    display: flex;
+    align-items: center; }
+    .comment .comment-lvl2 a {
+      margin: 0 0.75rem 0 0; }
+      .comment .comment-lvl2 a svg {
+        width: 16px; }
+  .comment .comment-lvl3 {
+    display: flex;
+    align-items: center; }
+    .comment .comment-lvl3 p {
+      color: #069ee5; }
+    .comment .comment-lvl3 svg {
+      margin-left: 0; }

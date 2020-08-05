@@ -1,3 +1,10 @@
+$light-bg-color: hsl(0, 0%, 98%);
+$light-border-color: #ccc;
+$lighter-border-color: #e0e0e0;
+$dark-text-color: #230303;
+$yt-red-color: #cc0000;
+$blue-color: #069ee5;
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +13,7 @@
 }
 
 main {
-  background-color: hsl(0, 0%, 98%);
+  background-color: $light-bg-color;
 }
 
 a {
@@ -16,10 +23,25 @@ a {
   align-items: flex-end;
 }
 
-.title {
+// Utilities
+
+.title-l {
   font-size: 1.1rem;
   font-weight: 500;
   padding: 0.7rem 0;
+  color: $dark-text-color;
+}
+.title-m {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.25rem 0;
+  color: $dark-text-color;
+}
+.title-s {
+  font-size: 0.9rem;
+  font-weight: 550;
+  padding: 0.25rem 0;
+  color: $dark-text-color;
 }
 
 .light-text {
@@ -27,15 +49,32 @@ a {
   color: #606779;
 }
 
+.normal-text {
+  font-size: 0.925rem;
+}
+
 .small-light-text {
   font-size: 0.8rem;
   font-weight: 550;
   color: hsl(223, 12%, 50%);
 }
+.xsmall-light-text {
+  font-size: 0.8rem;
+  color: hsl(223, 12%, 30%);
+}
 
 .small-icon {
   width: 20px;
   margin: 0 0.5rem 0 0;
+}
+
+.btn-l {
+  padding: 10px 16px;
+  background: $yt-red-color;
+  color: #fff;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 3px;
 }
 
 // Navbar ***
@@ -70,14 +109,14 @@ a {
     width: 575px;
     padding: 0 0.7rem;
     border-radius: 2px 0 0 2px;
-    border: 1px solid #ccc;
+    border: 1px solid $light-border-color;
     box-shadow: inset 0px 1px 8px rgba(0, 0, 0, 0.03);
   }
 
   .search-btn {
     padding: 5px 22px;
     border-radius: 0 2px 2px 0;
-    border: 1px solid #ccc;
+    border: 1px solid $light-border-color;
     border-left: none; // so it touches the input-bar
     background: hsl(0, 20%, 97.5%);
 
@@ -97,11 +136,20 @@ path {
 }
 
 .user-pic {
-  background: brown;
+  background: fuchsia;
   width: 32px;
   height: 32px;
   border-radius: 50%;
   margin: 0 0 0 1rem;
+}
+
+.user-pic-m {
+  background: forestgreen;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin: 0 0.5rem 0 0;
+  display: inline-block;
 }
 
 // Video section ***
@@ -118,7 +166,7 @@ path {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid $lighter-border-color;
 
   .vid-info-left {
     display: flex;
@@ -130,17 +178,131 @@ path {
     display: flex;
     div {
       display: flex;
-
-      border-bottom: 2px solid dodgerblue;
-      width: 10.75rem;
+      padding: 0 0.6rem;
+      border-bottom: 2px solid $blue-color;
+      width: 10rem;
       margin-right: 1rem;
     }
 
     a {
       padding: 0 1.5rem 1rem 0;
+
+      color: #606779;
       .some-icon {
         margin: 0;
       }
     }
+  }
+}
+
+// Channel description
+
+.channel-pic {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #648417;
+  display: inline-block;
+  margin: 1rem 1rem 0 0;
+}
+
+#vid-description {
+  width: 911px; // VIDEO WIDTH
+  border-bottom: 1px solid $light-border-color;
+  #top-desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    #desc-left {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  #description {
+    margin: 0.8rem 0 0 64px;
+
+    p {
+      padding: 0 0 1.5rem 0;
+    }
+  }
+}
+
+// Comments section
+#comment-section {
+  margin: 0 0 0 4.25rem;
+  width: 911px;
+}
+
+#my-comment {
+  margin-bottom: 2rem;
+  #my-comment-top {
+    display: flex;
+    align-items: center;
+
+    div {
+      display: flex;
+      align-items: center;
+      margin: 0 0 0 1.25rem;
+    }
+  }
+
+  #my-comment-bottom {
+    display: flex;
+    margin: 0 0 1rem 0;
+
+    div {
+      margin: 0 0.25rem 0rem 0;
+      background: fuchsia;
+    }
+
+    input {
+      padding: 0.25rem;
+      font-size: 0.9rem;
+      background: $light-bg-color;
+      border: none;
+      border-bottom: 1px solid $light-border-color;
+      width: 100%;
+    }
+  }
+}
+
+.comment {
+  display: flex;
+  margin: 1rem 0;
+
+  .user-pic-m {
+    width: 47.24px;
+  }
+
+  .comment-lvl0 {
+    p {
+      margin: 0 0.5rem 0 0;
+    }
+    display: flex;
+    align-items: center;
+  }
+
+  .comment-lvl2 {
+    margin: 0.75rem 0;
+    display: flex;
+    align-items: center;
+    a {
+      svg {
+        width: 16px;
+      }
+      margin: 0 0.75rem 0 0;
+    }
+  }
+
+  .comment-lvl3 {
+    p {
+      color: $blue-color;
+    }
+    svg {
+      margin-left: 0;
+    }
+    display: flex;
+    align-items: center;
   }
 }
