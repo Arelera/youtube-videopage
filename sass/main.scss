@@ -28,7 +28,7 @@ a {
 .title-l {
   font-size: 1.1rem;
   font-weight: 500;
-  padding: 0.7rem 0;
+  padding: 0.7rem 0 0.25rem 0;
   color: $dark-text-color;
 }
 .title-m {
@@ -42,6 +42,12 @@ a {
   font-weight: 550;
   padding: 0.25rem 0;
   color: $dark-text-color;
+}
+
+.light-text-m {
+  font-size: 1rem;
+  font-weight: 500;
+  color: hsl(223, 12%, 5%);
 }
 
 .light-text {
@@ -136,20 +142,22 @@ path {
 }
 
 .user-pic {
-  background: fuchsia;
+  background: #abcdef;
   width: 32px;
   height: 32px;
   border-radius: 50%;
   margin: 0 0 0 1rem;
+  flex-shrink: 0;
 }
 
 .user-pic-m {
-  background: forestgreen;
+  background: #ffaaaa;
   height: 40px;
   width: 40px;
   border-radius: 50%;
   margin: 0 0.5rem 0 0;
   display: inline-block;
+  flex-shrink: 0;
 }
 
 // Video section ***
@@ -253,11 +261,11 @@ path {
 
     div {
       margin: 0 0.25rem 0rem 0;
-      background: fuchsia;
+      background: #abcdef;
     }
 
     input {
-      padding: 0.25rem;
+      padding: 0 0 0 0.25rem;
       font-size: 0.9rem;
       background: $light-bg-color;
       border: none;
@@ -270,10 +278,6 @@ path {
 .comment {
   display: flex;
   margin: 1rem 0;
-
-  .user-pic-m {
-    width: 47.24px;
-  }
 
   .comment-lvl0 {
     p {
@@ -304,5 +308,39 @@ path {
     }
     display: flex;
     align-items: center;
+  }
+}
+
+// Recommended videos
+#flex-main {
+  display: flex;
+}
+
+#recommended-videos {
+  margin: 1.5rem 0 0 0.5rem;
+  h3 {
+    margin: 0 0 1rem 0;
+  }
+}
+
+.r-v-first {
+  border-bottom: 1px solid $lighter-border-color;
+  padding-bottom: 1rem;
+}
+
+.rec-video {
+  margin: 0.9rem 0;
+  display: flex;
+
+  .thumbnail {
+    margin: 0 0.5rem 0 0;
+    width: 168px;
+    height: 94px;
+    background-color: #1a2b3c;
+  }
+
+  p {
+    padding-top: 0;
+    margin: 0 0 0.2rem 0;
   }
 }

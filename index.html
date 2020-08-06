@@ -226,25 +226,62 @@
         <div class="user-pic"></div>
       </div>
     </nav>
-    <main>
-      <section id="video-section">
-        <iframe
-          width="911"
-          height="512"
-          src="https://www.youtube.com/embed/tJ7LdrAqL0Y?list=PLGps1fYxipBOYFCtUWGBbeVxCrbbreiYi"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-        <h3 class="title-l">And Nothing Can Ever Ruin This</h3>
-        <div id="vid-info">
-          <div class="vid-info-left">
-            <p class="light-text"><span class="views">125.623</span> Views •</p>
-            <p class="light-text">12.12.2050</p>
-          </div>
-          <div class="vid-info-right light-text">
-            <!-- video, title, likes share and such -->
-            <div class="likes-dislikes">
+    <main id="flex-main">
+      <div>
+        <section id="video-section">
+          <iframe
+            width="911"
+            height="512"
+            src="https://www.youtube.com/embed/tJ7LdrAqL0Y?list=PLGps1fYxipBOYFCtUWGBbeVxCrbbreiYi"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <h3 class="title-l">And Nothing Can Ever Ruin This</h3>
+          <div id="vid-info">
+            <div class="vid-info-left">
+              <p class="light-text">
+                <span class="views">2,107,572</span> Views •
+              </p>
+              <p class="light-text">12.12.2050</p>
+            </div>
+            <div class="vid-info-right light-text">
+              <!-- video, title, likes share and such -->
+              <div class="likes-dislikes">
+                <a href="">
+                  <svg
+                    class="small-icon"
+                    viewBox="0 0 24 24"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                  >
+                    <g class="style-scope yt-icon">
+                      <path
+                        d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                        class="style-scope yt-icon"
+                      ></path>
+                    </g>
+                  </svg>
+                  <p class="small-light-text">15.623</p>
+                </a>
+                <a href="">
+                  <svg
+                    class="small-icon"
+                    viewBox="0 0 24 24"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                  >
+                    <g class="style-scope yt-icon">
+                      <path
+                        d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
+                        class="style-scope yt-icon"
+                      ></path>
+                    </g>
+                  </svg>
+                  <p class="small-light-text">253</p>
+                </a>
+              </div>
+
               <a href="">
                 <svg
                   class="small-icon"
@@ -254,12 +291,12 @@
                 >
                   <g class="style-scope yt-icon">
                     <path
-                      d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                      d="M11.7333 8.26667V4L19.2 11.4667L11.7333 18.9333V14.56C6.4 14.56 2.66667 16.2667 0 20C1.06667 14.6667 4.26667 9.33333 11.7333 8.26667Z"
                       class="style-scope yt-icon"
                     ></path>
                   </g>
                 </svg>
-                <p class="small-light-text">15.623</p>
+                <p class="small-light-text">SHARE</p>
               </a>
               <a href="">
                 <svg
@@ -270,217 +307,152 @@
                 >
                   <g class="style-scope yt-icon">
                     <path
-                      d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
+                      d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"
                       class="style-scope yt-icon"
                     ></path>
                   </g>
                 </svg>
-                <p class="small-light-text">253</p>
+                <p class="small-light-text">SAVE</p>
+              </a>
+              <a href="">
+                <svg
+                  class="some-icon"
+                  viewBox="0 0 24 24"
+                  preserveAspectRatio="xMidYMid meet"
+                  focusable="false"
+                >
+                  <g class="style-scope yt-icon">
+                    <circle
+                      cx="5"
+                      cy="12"
+                      r="2"
+                      class="style-scope yt-icon"
+                    ></circle>
+                    <circle
+                      cx="12"
+                      cy="12"
+                      r="2"
+                      class="style-scope yt-icon"
+                    ></circle>
+                    <circle
+                      cx="19"
+                      cy="12"
+                      r="2"
+                      class="style-scope yt-icon"
+                    ></circle>
+                  </g>
+                </svg>
               </a>
             </div>
-
-            <a href="">
-              <svg
-                class="small-icon"
-                viewBox="0 0 24 24"
-                preserveAspectRatio="xMidYMid meet"
-                focusable="false"
-              >
-                <g class="style-scope yt-icon">
-                  <path
-                    d="M11.7333 8.26667V4L19.2 11.4667L11.7333 18.9333V14.56C6.4 14.56 2.66667 16.2667 0 20C1.06667 14.6667 4.26667 9.33333 11.7333 8.26667Z"
-                    class="style-scope yt-icon"
-                  ></path>
-                </g>
-              </svg>
-              <p class="small-light-text">SHARE</p>
-            </a>
-            <a href="">
-              <svg
-                class="small-icon"
-                viewBox="0 0 24 24"
-                preserveAspectRatio="xMidYMid meet"
-                focusable="false"
-              >
-                <g class="style-scope yt-icon">
-                  <path
-                    d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"
-                    class="style-scope yt-icon"
-                  ></path>
-                </g>
-              </svg>
-              <p class="small-light-text">SAVE</p>
-            </a>
-            <a href="">
-              <svg
-                class="some-icon"
-                viewBox="0 0 24 24"
-                preserveAspectRatio="xMidYMid meet"
-                focusable="false"
-              >
-                <g class="style-scope yt-icon">
-                  <circle
-                    cx="5"
-                    cy="12"
-                    r="2"
-                    class="style-scope yt-icon"
-                  ></circle>
-                  <circle
-                    cx="12"
-                    cy="12"
-                    r="2"
-                    class="style-scope yt-icon"
-                  ></circle>
-                  <circle
-                    cx="19"
-                    cy="12"
-                    r="2"
-                    class="style-scope yt-icon"
-                  ></circle>
-                </g>
-              </svg>
-            </a>
           </div>
-        </div>
 
-        <div id="vid-description">
-          <!-- channel, description, subscribe -->
-          <div id="top-desc">
-            <div id="desc-left">
-              <div class="channel-pic"></div>
+          <div id="vid-description">
+            <!-- channel, description, subscribe -->
+            <div id="top-desc">
+              <div id="desc-left">
+                <div class="channel-pic"></div>
+                <div>
+                  <p class="title-s">exurb1a</p>
+                  <p class="xsmall-light-text">1.83 M. Subscribers</p>
+                </div>
+              </div>
+              <div id="desc-right">
+                <button class="btn-l">SUBSCRIBE</button>
+              </div>
+            </div>
+            <div id="description">
+              <p class="normal-text">
+                The music is Chopin - Nocturne Op. 9 No. 2. He's been dead for a
+                while, but please show him some love anyway:
+                https://youtu.be/9E6b3swbnWg
+              </p>
+              <p class="light-text">SHOW MORE</p>
+            </div>
+          </div>
+        </section>
+        <section id="comment-section">
+          <div id="my-comment">
+            <!-- comment count, sort, my comment spot -->
+            <div id="my-comment-top">
+              <p>7,695 Comments</p>
               <div>
-                <p class="title-s">exurb1a</p>
-                <p class="xsmall-light-text">1.83 M. Subscribers</p>
-              </div>
-            </div>
-            <div id="desc-right">
-              <button class="btn-l">SUBSCRIBE</button>
-            </div>
-          </div>
-          <div id="description">
-            <p class="normal-text">
-              The music is Chopin - Nocturne Op. 9 No. 2. He's been dead for a
-              while, but please show him some love anyway:
-              https://youtu.be/9E6b3swbnWg
-            </p>
-            <p class="light-text">SHOW MORE</p>
-          </div>
-        </div>
-      </section>
-      <section id="comment-section">
-        <div id="my-comment">
-          <!-- comment count, sort, my comment spot -->
-          <div id="my-comment-top">
-            <p>7,695 Comments</p>
-            <div>
-              <svg
-                class="some-icon"
-                viewBox="0 0 24 24"
-                preserveAspectRatio="xMidYMid meet"
-                focusable="false"
-              >
-                <g class="style-scope yt-icon">
-                  <path
-                    d="M3 18h6v-2H3v2zM3 6v2h18V6H3zm0 7h12v-2H3v2z"
-                    class="style-scope yt-icon"
-                  ></path>
-                  <path
-                    d="M0 0h24v24H0z"
-                    fill="none"
-                    class="style-scope yt-icon"
-                  ></path>
-                </g>
-              </svg>
-              <p class="small-light-text">SORT BY</p>
-            </div>
-          </div>
-          <div id="my-comment-bottom">
-            <div class="user-pic-m"></div>
-            <input type="text" placeholder="Add a public comment..." />
-          </div>
-        </div>
-        <div id="other-comments">
-          <div class="comment">
-            <div class="user-pic-m"></div>
-            <div>
-              <div class="comment-lvl0">
-                <p class="title-s">Mr. Bobbi</p>
-                <p class="xsmall-light-text">12 Months Ago</p>
-              </div>
-              <div class="comment-lvl1">
-                <p class="normal-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-                  vitae quisquam similique molestias rerum voluptates dolore?
-                  Impedit debitis voluptatibus libero?
-                </p>
-              </div>
-              <div class="comment-lvl2">
-                <a href="">
-                  <svg
-                    class="small-icon"
-                    viewBox="0 0 24 24"
-                    preserveAspectRatio="xMidYMid meet"
-                    focusable="false"
-                  >
-                    <g class="style-scope yt-icon">
-                      <path
-                        d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
-                        class="style-scope yt-icon"
-                      ></path>
-                    </g>
-                  </svg>
-                  <p class="small-light-text">15.623</p>
-                </a>
-                <a href="">
-                  <svg
-                    class="small-icon"
-                    viewBox="0 0 24 24"
-                    preserveAspectRatio="xMidYMid meet"
-                    focusable="false"
-                  >
-                    <g class="style-scope yt-icon">
-                      <path
-                        d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
-                        class="style-scope yt-icon"
-                      ></path>
-                    </g>
-                  </svg>
-                  <p class="small-light-text">253</p>
-                </a>
-                <p class="light-text">REPLY</p>
-              </div>
-              <div class="comment-lvl3">
                 <svg
-                  class="small-icon"
+                  class="some-icon"
                   viewBox="0 0 24 24"
                   preserveAspectRatio="xMidYMid meet"
                   focusable="false"
                 >
                   <g class="style-scope yt-icon">
-                    <path d="M7 10l5 5 5-5z" class="style-scope yt-icon"></path>
+                    <path
+                      d="M3 18h6v-2H3v2zM3 6v2h18V6H3zm0 7h12v-2H3v2z"
+                      class="style-scope yt-icon"
+                    ></path>
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                      class="style-scope yt-icon"
+                    ></path>
                   </g>
                 </svg>
-                <p class="title-s">View 33 replies</p>
+                <p class="small-light-text">SORT BY</p>
               </div>
-              <div></div>
+            </div>
+            <div id="my-comment-bottom">
+              <div class="user-pic-m"></div>
+              <input type="text" placeholder="Add a public comment..." />
             </div>
           </div>
-          <div class="comment">
-            <div class="user-pic-m"></div>
-            <div>
-              <div class="comment-lvl0">
-                <p class="title-s">Mr. Bobbi</p>
-                <p class="xsmall-light-text">12 Months Ago</p>
-              </div>
-              <div class="comment-lvl1">
-                <p class="normal-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-                  vitae quisquam similique molestias rerum voluptates dolore?
-                  Impedit debitis voluptatibus libero?
-                </p>
-              </div>
-              <div class="comment-lvl2">
-                <a href="">
+          <div id="other-comments">
+            <div class="comment">
+              <div class="user-pic-m"></div>
+              <div>
+                <div class="comment-lvl0">
+                  <p class="title-s">Mr. Bobbi</p>
+                  <p class="xsmall-light-text">12 Months Ago</p>
+                </div>
+                <div class="comment-lvl1">
+                  <p class="normal-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi vitae quisquam similique molestias rerum voluptates
+                    dolore? Impedit debitis voluptatibus libero?
+                  </p>
+                </div>
+                <div class="comment-lvl2">
+                  <a href="">
+                    <svg
+                      class="small-icon"
+                      viewBox="0 0 24 24"
+                      preserveAspectRatio="xMidYMid meet"
+                      focusable="false"
+                    >
+                      <g class="style-scope yt-icon">
+                        <path
+                          d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                          class="style-scope yt-icon"
+                        ></path>
+                      </g>
+                    </svg>
+                    <p class="small-light-text">15.623</p>
+                  </a>
+                  <a href="">
+                    <svg
+                      class="small-icon"
+                      viewBox="0 0 24 24"
+                      preserveAspectRatio="xMidYMid meet"
+                      focusable="false"
+                    >
+                      <g class="style-scope yt-icon">
+                        <path
+                          d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
+                          class="style-scope yt-icon"
+                        ></path>
+                      </g>
+                    </svg>
+                    <p class="small-light-text">253</p>
+                  </a>
+                  <p class="light-text">REPLY</p>
+                </div>
+                <div class="comment-lvl3">
                   <svg
                     class="small-icon"
                     viewBox="0 0 24 24"
@@ -489,14 +461,66 @@
                   >
                     <g class="style-scope yt-icon">
                       <path
-                        d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                        d="M7 10l5 5 5-5z"
                         class="style-scope yt-icon"
                       ></path>
                     </g>
                   </svg>
-                  <p class="small-light-text">15.623</p>
-                </a>
-                <a href="">
+                  <p class="title-s">View 33 replies</p>
+                </div>
+                <div></div>
+              </div>
+            </div>
+            <div class="comment">
+              <div class="user-pic-m"></div>
+              <div>
+                <div class="comment-lvl0">
+                  <p class="title-s">Mr. Bobbi</p>
+                  <p class="xsmall-light-text">12 Months Ago</p>
+                </div>
+                <div class="comment-lvl1">
+                  <p class="normal-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi vitae quisquam similique molestias rerum voluptates
+                    dolore? Impedit debitis voluptatibus libero?
+                  </p>
+                </div>
+                <div class="comment-lvl2">
+                  <a href="">
+                    <svg
+                      class="small-icon"
+                      viewBox="0 0 24 24"
+                      preserveAspectRatio="xMidYMid meet"
+                      focusable="false"
+                    >
+                      <g class="style-scope yt-icon">
+                        <path
+                          d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                          class="style-scope yt-icon"
+                        ></path>
+                      </g>
+                    </svg>
+                    <p class="small-light-text">15.623</p>
+                  </a>
+                  <a href="">
+                    <svg
+                      class="small-icon"
+                      viewBox="0 0 24 24"
+                      preserveAspectRatio="xMidYMid meet"
+                      focusable="false"
+                    >
+                      <g class="style-scope yt-icon">
+                        <path
+                          d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
+                          class="style-scope yt-icon"
+                        ></path>
+                      </g>
+                    </svg>
+                    <p class="small-light-text">253</p>
+                  </a>
+                  <p class="light-text">REPLY</p>
+                </div>
+                <div class="comment-lvl3">
                   <svg
                     class="small-icon"
                     viewBox="0 0 24 24"
@@ -505,555 +529,681 @@
                   >
                     <g class="style-scope yt-icon">
                       <path
-                        d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
+                        d="M7 10l5 5 5-5z"
                         class="style-scope yt-icon"
                       ></path>
                     </g>
                   </svg>
-                  <p class="small-light-text">253</p>
-                </a>
-                <p class="light-text">REPLY</p>
+                  <p class="title-s">View 33 replies</p>
+                </div>
+                <div></div>
               </div>
-              <div class="comment-lvl3">
-                <svg
-                  class="small-icon"
-                  viewBox="0 0 24 24"
-                  preserveAspectRatio="xMidYMid meet"
-                  focusable="false"
-                >
-                  <g class="style-scope yt-icon">
-                    <path d="M7 10l5 5 5-5z" class="style-scope yt-icon"></path>
-                  </g>
-                </svg>
-                <p class="title-s">View 33 replies</p>
+            </div>
+            <div class="comment">
+              <div class="user-pic-m"></div>
+              <div>
+                <div class="comment-lvl0">
+                  <p class="title-s">Mr. Bobbi</p>
+                  <p class="xsmall-light-text">12 Months Ago</p>
+                </div>
+                <div class="comment-lvl1">
+                  <p class="normal-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi vitae quisquam similique molestias rerum voluptates
+                    dolore? Impedit debitis voluptatibus libero?
+                  </p>
+                </div>
+                <div class="comment-lvl2">
+                  <a href="">
+                    <svg
+                      class="small-icon"
+                      viewBox="0 0 24 24"
+                      preserveAspectRatio="xMidYMid meet"
+                      focusable="false"
+                    >
+                      <g class="style-scope yt-icon">
+                        <path
+                          d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                          class="style-scope yt-icon"
+                        ></path>
+                      </g>
+                    </svg>
+                    <p class="small-light-text">15.623</p>
+                  </a>
+                  <a href="">
+                    <svg
+                      class="small-icon"
+                      viewBox="0 0 24 24"
+                      preserveAspectRatio="xMidYMid meet"
+                      focusable="false"
+                    >
+                      <g class="style-scope yt-icon">
+                        <path
+                          d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
+                          class="style-scope yt-icon"
+                        ></path>
+                      </g>
+                    </svg>
+                    <p class="small-light-text">253</p>
+                  </a>
+                  <p class="light-text">REPLY</p>
+                </div>
+                <div class="comment-lvl3">
+                  <svg
+                    class="small-icon"
+                    viewBox="0 0 24 24"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                  >
+                    <g class="style-scope yt-icon">
+                      <path
+                        d="M7 10l5 5 5-5z"
+                        class="style-scope yt-icon"
+                      ></path>
+                    </g>
+                  </svg>
+                  <p class="title-s">View 33 replies</p>
+                </div>
+                <div></div>
               </div>
-              <div></div>
+            </div>
+            <div class="comment">
+              <div class="user-pic-m"></div>
+              <div>
+                <div class="comment-lvl0">
+                  <p class="title-s">Mr. Bobbi</p>
+                  <p class="xsmall-light-text">12 Months Ago</p>
+                </div>
+                <div class="comment-lvl1">
+                  <p class="normal-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi vitae quisquam similique molestias rerum voluptates
+                    dolore? Impedit debitis voluptatibus libero?
+                  </p>
+                </div>
+                <div class="comment-lvl2">
+                  <a href="">
+                    <svg
+                      class="small-icon"
+                      viewBox="0 0 24 24"
+                      preserveAspectRatio="xMidYMid meet"
+                      focusable="false"
+                    >
+                      <g class="style-scope yt-icon">
+                        <path
+                          d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                          class="style-scope yt-icon"
+                        ></path>
+                      </g>
+                    </svg>
+                    <p class="small-light-text">15.623</p>
+                  </a>
+                  <a href="">
+                    <svg
+                      class="small-icon"
+                      viewBox="0 0 24 24"
+                      preserveAspectRatio="xMidYMid meet"
+                      focusable="false"
+                    >
+                      <g class="style-scope yt-icon">
+                        <path
+                          d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
+                          class="style-scope yt-icon"
+                        ></path>
+                      </g>
+                    </svg>
+                    <p class="small-light-text">253</p>
+                  </a>
+                  <p class="light-text">REPLY</p>
+                </div>
+                <div class="comment-lvl3">
+                  <svg
+                    class="small-icon"
+                    viewBox="0 0 24 24"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                  >
+                    <g class="style-scope yt-icon">
+                      <path
+                        d="M7 10l5 5 5-5z"
+                        class="style-scope yt-icon"
+                      ></path>
+                    </g>
+                  </svg>
+                  <p class="title-s">View 33 replies</p>
+                </div>
+                <div></div>
+              </div>
+            </div>
+            <div class="comment">
+              <div class="user-pic-m"></div>
+              <div>
+                <div class="comment-lvl0">
+                  <p class="title-s">Mr. Bobbi</p>
+                  <p class="xsmall-light-text">12 Months Ago</p>
+                </div>
+                <div class="comment-lvl1">
+                  <p class="normal-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi vitae quisquam similique molestias rerum voluptates
+                    dolore? Impedit debitis voluptatibus libero?
+                  </p>
+                </div>
+                <div class="comment-lvl2">
+                  <a href="">
+                    <svg
+                      class="small-icon"
+                      viewBox="0 0 24 24"
+                      preserveAspectRatio="xMidYMid meet"
+                      focusable="false"
+                    >
+                      <g class="style-scope yt-icon">
+                        <path
+                          d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                          class="style-scope yt-icon"
+                        ></path>
+                      </g>
+                    </svg>
+                    <p class="small-light-text">15.623</p>
+                  </a>
+                  <a href="">
+                    <svg
+                      class="small-icon"
+                      viewBox="0 0 24 24"
+                      preserveAspectRatio="xMidYMid meet"
+                      focusable="false"
+                    >
+                      <g class="style-scope yt-icon">
+                        <path
+                          d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
+                          class="style-scope yt-icon"
+                        ></path>
+                      </g>
+                    </svg>
+                    <p class="small-light-text">253</p>
+                  </a>
+                  <p class="light-text">REPLY</p>
+                </div>
+                <div class="comment-lvl3"></div>
+                <div></div>
+              </div>
+            </div>
+            <div class="comment">
+              <div class="user-pic-m"></div>
+              <div>
+                <div class="comment-lvl0">
+                  <p class="title-s">Mr. Bobbi</p>
+                  <p class="xsmall-light-text">12 Months Ago</p>
+                </div>
+                <div class="comment-lvl1">
+                  <p class="normal-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi vitae quisquam similique molestias rerum voluptates
+                    dolore? Impedit debitis voluptatibus libero?
+                  </p>
+                </div>
+                <div class="comment-lvl2">
+                  <a href="">
+                    <svg
+                      class="small-icon"
+                      viewBox="0 0 24 24"
+                      preserveAspectRatio="xMidYMid meet"
+                      focusable="false"
+                    >
+                      <g class="style-scope yt-icon">
+                        <path
+                          d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                          class="style-scope yt-icon"
+                        ></path>
+                      </g>
+                    </svg>
+                    <p class="small-light-text">15.623</p>
+                  </a>
+                  <a href="">
+                    <svg
+                      class="small-icon"
+                      viewBox="0 0 24 24"
+                      preserveAspectRatio="xMidYMid meet"
+                      focusable="false"
+                    >
+                      <g class="style-scope yt-icon">
+                        <path
+                          d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
+                          class="style-scope yt-icon"
+                        ></path>
+                      </g>
+                    </svg>
+                    <p class="small-light-text">253</p>
+                  </a>
+                  <p class="light-text">REPLY</p>
+                </div>
+                <div class="comment-lvl3"></div>
+                <div></div>
+              </div>
+            </div>
+            <div class="comment">
+              <div class="user-pic-m"></div>
+              <div>
+                <div class="comment-lvl0">
+                  <p class="title-s">Mr. Bobbi</p>
+                  <p class="xsmall-light-text">12 Months Ago</p>
+                </div>
+                <div class="comment-lvl1">
+                  <p class="normal-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi vitae quisquam similique molestias rerum voluptates
+                    dolore? Impedit debitis voluptatibus libero?
+                  </p>
+                </div>
+                <div class="comment-lvl2">
+                  <a href="">
+                    <svg
+                      class="small-icon"
+                      viewBox="0 0 24 24"
+                      preserveAspectRatio="xMidYMid meet"
+                      focusable="false"
+                    >
+                      <g class="style-scope yt-icon">
+                        <path
+                          d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                          class="style-scope yt-icon"
+                        ></path>
+                      </g>
+                    </svg>
+                    <p class="small-light-text">15.623</p>
+                  </a>
+                  <a href="">
+                    <svg
+                      class="small-icon"
+                      viewBox="0 0 24 24"
+                      preserveAspectRatio="xMidYMid meet"
+                      focusable="false"
+                    >
+                      <g class="style-scope yt-icon">
+                        <path
+                          d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
+                          class="style-scope yt-icon"
+                        ></path>
+                      </g>
+                    </svg>
+                    <p class="small-light-text">253</p>
+                  </a>
+                  <p class="light-text">REPLY</p>
+                </div>
+                <div class="comment-lvl3">
+                  <svg
+                    class="small-icon"
+                    viewBox="0 0 24 24"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                  >
+                    <g class="style-scope yt-icon">
+                      <path
+                        d="M7 10l5 5 5-5z"
+                        class="style-scope yt-icon"
+                      ></path>
+                    </g>
+                  </svg>
+                  <p class="title-s">View 33 replies</p>
+                </div>
+                <div></div>
+              </div>
+            </div>
+            <div class="comment">
+              <div class="user-pic-m"></div>
+              <div>
+                <div class="comment-lvl0">
+                  <p class="title-s">Mr. Bobbi</p>
+                  <p class="xsmall-light-text">12 Months Ago</p>
+                </div>
+                <div class="comment-lvl1">
+                  <p class="normal-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi vitae quisquam similique molestias rerum voluptates
+                    dolore? Impedit debitis voluptatibus libero?
+                  </p>
+                </div>
+                <div class="comment-lvl2">
+                  <a href="">
+                    <svg
+                      class="small-icon"
+                      viewBox="0 0 24 24"
+                      preserveAspectRatio="xMidYMid meet"
+                      focusable="false"
+                    >
+                      <g class="style-scope yt-icon">
+                        <path
+                          d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                          class="style-scope yt-icon"
+                        ></path>
+                      </g>
+                    </svg>
+                    <p class="small-light-text">15.623</p>
+                  </a>
+                  <a href="">
+                    <svg
+                      class="small-icon"
+                      viewBox="0 0 24 24"
+                      preserveAspectRatio="xMidYMid meet"
+                      focusable="false"
+                    >
+                      <g class="style-scope yt-icon">
+                        <path
+                          d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
+                          class="style-scope yt-icon"
+                        ></path>
+                      </g>
+                    </svg>
+                    <p class="small-light-text">253</p>
+                  </a>
+                  <p class="light-text">REPLY</p>
+                </div>
+                <div class="comment-lvl3">
+                  <svg
+                    class="small-icon"
+                    viewBox="0 0 24 24"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                  >
+                    <g class="style-scope yt-icon">
+                      <path
+                        d="M7 10l5 5 5-5z"
+                        class="style-scope yt-icon"
+                      ></path>
+                    </g>
+                  </svg>
+                  <p class="title-s">View 33 replies</p>
+                </div>
+                <div></div>
+              </div>
+            </div>
+            <div class="comment">
+              <div class="user-pic-m"></div>
+              <div>
+                <div class="comment-lvl0">
+                  <p class="title-s">Mr. Bobbi</p>
+                  <p class="xsmall-light-text">12 Months Ago</p>
+                </div>
+                <div class="comment-lvl1">
+                  <p class="normal-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi vitae quisquam similique molestias rerum voluptates
+                    dolore? Impedit debitis voluptatibus libero?
+                  </p>
+                </div>
+                <div class="comment-lvl2">
+                  <a href="">
+                    <svg
+                      class="small-icon"
+                      viewBox="0 0 24 24"
+                      preserveAspectRatio="xMidYMid meet"
+                      focusable="false"
+                    >
+                      <g class="style-scope yt-icon">
+                        <path
+                          d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                          class="style-scope yt-icon"
+                        ></path>
+                      </g>
+                    </svg>
+                    <p class="small-light-text">15.623</p>
+                  </a>
+                  <a href="">
+                    <svg
+                      class="small-icon"
+                      viewBox="0 0 24 24"
+                      preserveAspectRatio="xMidYMid meet"
+                      focusable="false"
+                    >
+                      <g class="style-scope yt-icon">
+                        <path
+                          d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
+                          class="style-scope yt-icon"
+                        ></path>
+                      </g>
+                    </svg>
+                    <p class="small-light-text">253</p>
+                  </a>
+                  <p class="light-text">REPLY</p>
+                </div>
+                <div class="comment-lvl3"></div>
+                <div></div>
+              </div>
+            </div>
+            <div class="comment">
+              <div class="user-pic-m"></div>
+              <div>
+                <div class="comment-lvl0">
+                  <p class="title-s">Mr. Bobbi</p>
+                  <p class="xsmall-light-text">12 Months Ago</p>
+                </div>
+                <div class="comment-lvl1">
+                  <p class="normal-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi vitae quisquam similique molestias rerum voluptates
+                    dolore? Impedit debitis voluptatibus libero?
+                  </p>
+                </div>
+                <div class="comment-lvl2">
+                  <a href="">
+                    <svg
+                      class="small-icon"
+                      viewBox="0 0 24 24"
+                      preserveAspectRatio="xMidYMid meet"
+                      focusable="false"
+                    >
+                      <g class="style-scope yt-icon">
+                        <path
+                          d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                          class="style-scope yt-icon"
+                        ></path>
+                      </g>
+                    </svg>
+                    <p class="small-light-text">15.623</p>
+                  </a>
+                  <a href="">
+                    <svg
+                      class="small-icon"
+                      viewBox="0 0 24 24"
+                      preserveAspectRatio="xMidYMid meet"
+                      focusable="false"
+                    >
+                      <g class="style-scope yt-icon">
+                        <path
+                          d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
+                          class="style-scope yt-icon"
+                        ></path>
+                      </g>
+                    </svg>
+                    <p class="small-light-text">253</p>
+                  </a>
+                  <p class="light-text">REPLY</p>
+                </div>
+                <div class="comment-lvl3">
+                  <svg
+                    class="small-icon"
+                    viewBox="0 0 24 24"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                  >
+                    <g class="style-scope yt-icon">
+                      <path
+                        d="M7 10l5 5 5-5z"
+                        class="style-scope yt-icon"
+                      ></path>
+                    </g>
+                  </svg>
+                  <p class="title-s">View 33 replies</p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="comment">
-            <div class="user-pic-m"></div>
-            <div>
-              <div class="comment-lvl0">
-                <p class="title-s">Mr. Bobbi</p>
-                <p class="xsmall-light-text">12 Months Ago</p>
-              </div>
-              <div class="comment-lvl1">
-                <p class="normal-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-                  vitae quisquam similique molestias rerum voluptates dolore?
-                  Impedit debitis voluptatibus libero?
-                </p>
-              </div>
-              <div class="comment-lvl2">
-                <a href="">
-                  <svg
-                    class="small-icon"
-                    viewBox="0 0 24 24"
-                    preserveAspectRatio="xMidYMid meet"
-                    focusable="false"
-                  >
-                    <g class="style-scope yt-icon">
-                      <path
-                        d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
-                        class="style-scope yt-icon"
-                      ></path>
-                    </g>
-                  </svg>
-                  <p class="small-light-text">15.623</p>
-                </a>
-                <a href="">
-                  <svg
-                    class="small-icon"
-                    viewBox="0 0 24 24"
-                    preserveAspectRatio="xMidYMid meet"
-                    focusable="false"
-                  >
-                    <g class="style-scope yt-icon">
-                      <path
-                        d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
-                        class="style-scope yt-icon"
-                      ></path>
-                    </g>
-                  </svg>
-                  <p class="small-light-text">253</p>
-                </a>
-                <p class="light-text">REPLY</p>
-              </div>
-              <div class="comment-lvl3">
-                <svg
-                  class="small-icon"
-                  viewBox="0 0 24 24"
-                  preserveAspectRatio="xMidYMid meet"
-                  focusable="false"
-                >
-                  <g class="style-scope yt-icon">
-                    <path d="M7 10l5 5 5-5z" class="style-scope yt-icon"></path>
-                  </g>
-                </svg>
-                <p class="title-s">View 33 replies</p>
-              </div>
-              <div></div>
-            </div>
-          </div>
-          <div class="comment">
-            <div class="user-pic-m"></div>
-            <div>
-              <div class="comment-lvl0">
-                <p class="title-s">Mr. Bobbi</p>
-                <p class="xsmall-light-text">12 Months Ago</p>
-              </div>
-              <div class="comment-lvl1">
-                <p class="normal-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-                  vitae quisquam similique molestias rerum voluptates dolore?
-                  Impedit debitis voluptatibus libero?
-                </p>
-              </div>
-              <div class="comment-lvl2">
-                <a href="">
-                  <svg
-                    class="small-icon"
-                    viewBox="0 0 24 24"
-                    preserveAspectRatio="xMidYMid meet"
-                    focusable="false"
-                  >
-                    <g class="style-scope yt-icon">
-                      <path
-                        d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
-                        class="style-scope yt-icon"
-                      ></path>
-                    </g>
-                  </svg>
-                  <p class="small-light-text">15.623</p>
-                </a>
-                <a href="">
-                  <svg
-                    class="small-icon"
-                    viewBox="0 0 24 24"
-                    preserveAspectRatio="xMidYMid meet"
-                    focusable="false"
-                  >
-                    <g class="style-scope yt-icon">
-                      <path
-                        d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
-                        class="style-scope yt-icon"
-                      ></path>
-                    </g>
-                  </svg>
-                  <p class="small-light-text">253</p>
-                </a>
-                <p class="light-text">REPLY</p>
-              </div>
-              <div class="comment-lvl3">
-                <svg
-                  class="small-icon"
-                  viewBox="0 0 24 24"
-                  preserveAspectRatio="xMidYMid meet"
-                  focusable="false"
-                >
-                  <g class="style-scope yt-icon">
-                    <path d="M7 10l5 5 5-5z" class="style-scope yt-icon"></path>
-                  </g>
-                </svg>
-                <p class="title-s">View 33 replies</p>
-              </div>
-              <div></div>
-            </div>
-          </div>
-          <div class="comment">
-            <div class="user-pic-m"></div>
-            <div>
-              <div class="comment-lvl0">
-                <p class="title-s">Mr. Bobbi</p>
-                <p class="xsmall-light-text">12 Months Ago</p>
-              </div>
-              <div class="comment-lvl1">
-                <p class="normal-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-                  vitae quisquam similique molestias rerum voluptates dolore?
-                  Impedit debitis voluptatibus libero?
-                </p>
-              </div>
-              <div class="comment-lvl2">
-                <a href="">
-                  <svg
-                    class="small-icon"
-                    viewBox="0 0 24 24"
-                    preserveAspectRatio="xMidYMid meet"
-                    focusable="false"
-                  >
-                    <g class="style-scope yt-icon">
-                      <path
-                        d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
-                        class="style-scope yt-icon"
-                      ></path>
-                    </g>
-                  </svg>
-                  <p class="small-light-text">15.623</p>
-                </a>
-                <a href="">
-                  <svg
-                    class="small-icon"
-                    viewBox="0 0 24 24"
-                    preserveAspectRatio="xMidYMid meet"
-                    focusable="false"
-                  >
-                    <g class="style-scope yt-icon">
-                      <path
-                        d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
-                        class="style-scope yt-icon"
-                      ></path>
-                    </g>
-                  </svg>
-                  <p class="small-light-text">253</p>
-                </a>
-                <p class="light-text">REPLY</p>
-              </div>
-              <div class="comment-lvl3">
-                <svg
-                  class="small-icon"
-                  viewBox="0 0 24 24"
-                  preserveAspectRatio="xMidYMid meet"
-                  focusable="false"
-                >
-                  <g class="style-scope yt-icon">
-                    <path d="M7 10l5 5 5-5z" class="style-scope yt-icon"></path>
-                  </g>
-                </svg>
-                <p class="title-s">View 33 replies</p>
-              </div>
-              <div></div>
-            </div>
-          </div>
-          <div class="comment">
-            <div class="user-pic-m"></div>
-            <div>
-              <div class="comment-lvl0">
-                <p class="title-s">Mr. Bobbi</p>
-                <p class="xsmall-light-text">12 Months Ago</p>
-              </div>
-              <div class="comment-lvl1">
-                <p class="normal-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-                  vitae quisquam similique molestias rerum voluptates dolore?
-                  Impedit debitis voluptatibus libero?
-                </p>
-              </div>
-              <div class="comment-lvl2">
-                <a href="">
-                  <svg
-                    class="small-icon"
-                    viewBox="0 0 24 24"
-                    preserveAspectRatio="xMidYMid meet"
-                    focusable="false"
-                  >
-                    <g class="style-scope yt-icon">
-                      <path
-                        d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
-                        class="style-scope yt-icon"
-                      ></path>
-                    </g>
-                  </svg>
-                  <p class="small-light-text">15.623</p>
-                </a>
-                <a href="">
-                  <svg
-                    class="small-icon"
-                    viewBox="0 0 24 24"
-                    preserveAspectRatio="xMidYMid meet"
-                    focusable="false"
-                  >
-                    <g class="style-scope yt-icon">
-                      <path
-                        d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
-                        class="style-scope yt-icon"
-                      ></path>
-                    </g>
-                  </svg>
-                  <p class="small-light-text">253</p>
-                </a>
-                <p class="light-text">REPLY</p>
-              </div>
-              <div class="comment-lvl3">
-                <svg
-                  class="small-icon"
-                  viewBox="0 0 24 24"
-                  preserveAspectRatio="xMidYMid meet"
-                  focusable="false"
-                >
-                  <g class="style-scope yt-icon">
-                    <path d="M7 10l5 5 5-5z" class="style-scope yt-icon"></path>
-                  </g>
-                </svg>
-                <p class="title-s">View 33 replies</p>
-              </div>
-              <div></div>
-            </div>
-          </div>
-          <div class="comment">
-            <div class="user-pic-m"></div>
-            <div>
-              <div class="comment-lvl0">
-                <p class="title-s">Mr. Bobbi</p>
-                <p class="xsmall-light-text">12 Months Ago</p>
-              </div>
-              <div class="comment-lvl1">
-                <p class="normal-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-                  vitae quisquam similique molestias rerum voluptates dolore?
-                  Impedit debitis voluptatibus libero?
-                </p>
-              </div>
-              <div class="comment-lvl2">
-                <a href="">
-                  <svg
-                    class="small-icon"
-                    viewBox="0 0 24 24"
-                    preserveAspectRatio="xMidYMid meet"
-                    focusable="false"
-                  >
-                    <g class="style-scope yt-icon">
-                      <path
-                        d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
-                        class="style-scope yt-icon"
-                      ></path>
-                    </g>
-                  </svg>
-                  <p class="small-light-text">15.623</p>
-                </a>
-                <a href="">
-                  <svg
-                    class="small-icon"
-                    viewBox="0 0 24 24"
-                    preserveAspectRatio="xMidYMid meet"
-                    focusable="false"
-                  >
-                    <g class="style-scope yt-icon">
-                      <path
-                        d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
-                        class="style-scope yt-icon"
-                      ></path>
-                    </g>
-                  </svg>
-                  <p class="small-light-text">253</p>
-                </a>
-                <p class="light-text">REPLY</p>
-              </div>
-              <div class="comment-lvl3">
-                <svg
-                  class="small-icon"
-                  viewBox="0 0 24 24"
-                  preserveAspectRatio="xMidYMid meet"
-                  focusable="false"
-                >
-                  <g class="style-scope yt-icon">
-                    <path d="M7 10l5 5 5-5z" class="style-scope yt-icon"></path>
-                  </g>
-                </svg>
-                <p class="title-s">View 33 replies</p>
-              </div>
-              <div></div>
-            </div>
-          </div>
-          <div class="comment">
-            <div class="user-pic-m"></div>
-            <div>
-              <div class="comment-lvl0">
-                <p class="title-s">Mr. Bobbi</p>
-                <p class="xsmall-light-text">12 Months Ago</p>
-              </div>
-              <div class="comment-lvl1">
-                <p class="normal-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-                  vitae quisquam similique molestias rerum voluptates dolore?
-                  Impedit debitis voluptatibus libero?
-                </p>
-              </div>
-              <div class="comment-lvl2">
-                <a href="">
-                  <svg
-                    class="small-icon"
-                    viewBox="0 0 24 24"
-                    preserveAspectRatio="xMidYMid meet"
-                    focusable="false"
-                  >
-                    <g class="style-scope yt-icon">
-                      <path
-                        d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
-                        class="style-scope yt-icon"
-                      ></path>
-                    </g>
-                  </svg>
-                  <p class="small-light-text">15.623</p>
-                </a>
-                <a href="">
-                  <svg
-                    class="small-icon"
-                    viewBox="0 0 24 24"
-                    preserveAspectRatio="xMidYMid meet"
-                    focusable="false"
-                  >
-                    <g class="style-scope yt-icon">
-                      <path
-                        d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
-                        class="style-scope yt-icon"
-                      ></path>
-                    </g>
-                  </svg>
-                  <p class="small-light-text">253</p>
-                </a>
-                <p class="light-text">REPLY</p>
-              </div>
-              <div class="comment-lvl3">
-                <svg
-                  class="small-icon"
-                  viewBox="0 0 24 24"
-                  preserveAspectRatio="xMidYMid meet"
-                  focusable="false"
-                >
-                  <g class="style-scope yt-icon">
-                    <path d="M7 10l5 5 5-5z" class="style-scope yt-icon"></path>
-                  </g>
-                </svg>
-                <p class="title-s">View 33 replies</p>
-              </div>
-              <div></div>
-            </div>
-          </div>
-          <div class="comment">
-            <div class="user-pic-m"></div>
-            <div>
-              <div class="comment-lvl0">
-                <p class="title-s">Mr. Bobbi</p>
-                <p class="xsmall-light-text">12 Months Ago</p>
-              </div>
-              <div class="comment-lvl1">
-                <p class="normal-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-                  vitae quisquam similique molestias rerum voluptates dolore?
-                  Impedit debitis voluptatibus libero?
-                </p>
-              </div>
-              <div class="comment-lvl2">
-                <a href="">
-                  <svg
-                    class="small-icon"
-                    viewBox="0 0 24 24"
-                    preserveAspectRatio="xMidYMid meet"
-                    focusable="false"
-                  >
-                    <g class="style-scope yt-icon">
-                      <path
-                        d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
-                        class="style-scope yt-icon"
-                      ></path>
-                    </g>
-                  </svg>
-                  <p class="small-light-text">15.623</p>
-                </a>
-                <a href="">
-                  <svg
-                    class="small-icon"
-                    viewBox="0 0 24 24"
-                    preserveAspectRatio="xMidYMid meet"
-                    focusable="false"
-                  >
-                    <g class="style-scope yt-icon">
-                      <path
-                        d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
-                        class="style-scope yt-icon"
-                      ></path>
-                    </g>
-                  </svg>
-                  <p class="small-light-text">253</p>
-                </a>
-                <p class="light-text">REPLY</p>
-              </div>
-              <div class="comment-lvl3">
-                <svg
-                  class="small-icon"
-                  viewBox="0 0 24 24"
-                  preserveAspectRatio="xMidYMid meet"
-                  focusable="false"
-                >
-                  <g class="style-scope yt-icon">
-                    <path d="M7 10l5 5 5-5z" class="style-scope yt-icon"></path>
-                  </g>
-                </svg>
-                <p class="title-s">View 33 replies</p>
-              </div>
-              <div></div>
-            </div>
-          </div>
-          <div class="comment">
-            <div class="user-pic-m"></div>
-            <div>
-              <div class="comment-lvl0">
-                <p class="title-s">Mr. Bobbi</p>
-                <p class="xsmall-light-text">12 Months Ago</p>
-              </div>
-              <div class="comment-lvl1">
-                <p class="normal-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-                  vitae quisquam similique molestias rerum voluptates dolore?
-                  Impedit debitis voluptatibus libero?
-                </p>
-              </div>
-              <div class="comment-lvl2">
-                <a href="">
-                  <svg
-                    class="small-icon"
-                    viewBox="0 0 24 24"
-                    preserveAspectRatio="xMidYMid meet"
-                    focusable="false"
-                  >
-                    <g class="style-scope yt-icon">
-                      <path
-                        d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
-                        class="style-scope yt-icon"
-                      ></path>
-                    </g>
-                  </svg>
-                  <p class="small-light-text">15.623</p>
-                </a>
-                <a href="">
-                  <svg
-                    class="small-icon"
-                    viewBox="0 0 24 24"
-                    preserveAspectRatio="xMidYMid meet"
-                    focusable="false"
-                  >
-                    <g class="style-scope yt-icon">
-                      <path
-                        d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
-                        class="style-scope yt-icon"
-                      ></path>
-                    </g>
-                  </svg>
-                  <p class="small-light-text">253</p>
-                </a>
-                <p class="light-text">REPLY</p>
-              </div>
-              <div class="comment-lvl3">
-                <svg
-                  class="small-icon"
-                  viewBox="0 0 24 24"
-                  preserveAspectRatio="xMidYMid meet"
-                  focusable="false"
-                >
-                  <g class="style-scope yt-icon">
-                    <path d="M7 10l5 5 5-5z" class="style-scope yt-icon"></path>
-                  </g>
-                </svg>
-                <p class="title-s">View 33 replies</p>
-              </div>
-              <div></div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <aside>
+        </section>
+      </div>
+
+      <aside id="recommended-videos">
         <!-- recommended videos on the side -->
+        <h3 class="light-text-m">Up next</h3>
+        <div class="rec-video r-v-first">
+          <div class="thumbnail"></div>
+          <div class="rec-video-info">
+            <p class="title-m">Some video title</p>
+            <p class="xsmall-light-text">Channel name</p>
+            <p class="xsmall-light-text">1.7M views • 1 year ago</p>
+          </div>
+        </div>
+        <div class="rec-video">
+          <div class="thumbnail"></div>
+          <div class="rec-video-info">
+            <p class="title-m">Some video title</p>
+            <p class="xsmall-light-text">Channel name</p>
+            <p class="xsmall-light-text">1.7M views • 1 year ago</p>
+          </div>
+        </div>
+        <div class="rec-video">
+          <div class="thumbnail"></div>
+          <div class="rec-video-info">
+            <p class="title-m">Some video title</p>
+            <p class="xsmall-light-text">Channel name</p>
+            <p class="xsmall-light-text">1.7M views • 1 year ago</p>
+          </div>
+        </div>
+        <div class="rec-video">
+          <div class="thumbnail"></div>
+          <div class="rec-video-info">
+            <p class="title-m">Some video title</p>
+            <p class="xsmall-light-text">Channel name</p>
+            <p class="xsmall-light-text">1.7M views • 1 year ago</p>
+          </div>
+        </div>
+        <div class="rec-video">
+          <div class="thumbnail"></div>
+          <div class="rec-video-info">
+            <p class="title-m">Some video title</p>
+            <p class="xsmall-light-text">Channel name</p>
+            <p class="xsmall-light-text">1.7M views • 1 year ago</p>
+          </div>
+        </div>
+        <div class="rec-video">
+          <div class="thumbnail"></div>
+          <div class="rec-video-info">
+            <p class="title-m">Some video title</p>
+            <p class="xsmall-light-text">Channel name</p>
+            <p class="xsmall-light-text">1.7M views • 1 year ago</p>
+          </div>
+        </div>
+        <div class="rec-video">
+          <div class="thumbnail"></div>
+          <div class="rec-video-info">
+            <p class="title-m">Some video title</p>
+            <p class="xsmall-light-text">Channel name</p>
+            <p class="xsmall-light-text">1.7M views • 1 year ago</p>
+          </div>
+        </div>
+        <div class="rec-video">
+          <div class="thumbnail"></div>
+          <div class="rec-video-info">
+            <p class="title-m">Some video title</p>
+            <p class="xsmall-light-text">Channel name</p>
+            <p class="xsmall-light-text">1.7M views • 1 year ago</p>
+          </div>
+        </div>
+        <div class="rec-video">
+          <div class="thumbnail"></div>
+          <div class="rec-video-info">
+            <p class="title-m">Some video title</p>
+            <p class="xsmall-light-text">Channel name</p>
+            <p class="xsmall-light-text">1.7M views • 1 year ago</p>
+          </div>
+        </div>
+        <div class="rec-video">
+          <div class="thumbnail"></div>
+          <div class="rec-video-info">
+            <p class="title-m">Some video title</p>
+            <p class="xsmall-light-text">Channel name</p>
+            <p class="xsmall-light-text">1.7M views • 1 year ago</p>
+          </div>
+        </div>
+        <div class="rec-video">
+          <div class="thumbnail"></div>
+          <div class="rec-video-info">
+            <p class="title-m">Some video title</p>
+            <p class="xsmall-light-text">Channel name</p>
+            <p class="xsmall-light-text">1.7M views • 1 year ago</p>
+          </div>
+        </div>
+        <div class="rec-video">
+          <div class="thumbnail"></div>
+          <div class="rec-video-info">
+            <p class="title-m">Some video title</p>
+            <p class="xsmall-light-text">Channel name</p>
+            <p class="xsmall-light-text">1.7M views • 1 year ago</p>
+          </div>
+        </div>
+        <div class="rec-video">
+          <div class="thumbnail"></div>
+          <div class="rec-video-info">
+            <p class="title-m">Some video title</p>
+            <p class="xsmall-light-text">Channel name</p>
+            <p class="xsmall-light-text">1.7M views • 1 year ago</p>
+          </div>
+        </div>
+        <div class="rec-video">
+          <div class="thumbnail"></div>
+          <div class="rec-video-info">
+            <p class="title-m">Some video title</p>
+            <p class="xsmall-light-text">Channel name</p>
+            <p class="xsmall-light-text">1.7M views • 1 year ago</p>
+          </div>
+        </div>
+        <div class="rec-video">
+          <div class="thumbnail"></div>
+          <div class="rec-video-info">
+            <p class="title-m">Some video title</p>
+            <p class="xsmall-light-text">Channel name</p>
+            <p class="xsmall-light-text">1.7M views • 1 year ago</p>
+          </div>
+        </div>
+        <div class="rec-video">
+          <div class="thumbnail"></div>
+          <div class="rec-video-info">
+            <p class="title-m">Some video title</p>
+            <p class="xsmall-light-text">Channel name</p>
+            <p class="xsmall-light-text">1.7M views • 1 year ago</p>
+          </div>
+        </div>
+        <div class="rec-video">
+          <div class="thumbnail"></div>
+          <div class="rec-video-info">
+            <p class="title-m">Some video title</p>
+            <p class="xsmall-light-text">Channel name</p>
+            <p class="xsmall-light-text">1.7M views • 1 year ago</p>
+          </div>
+        </div>
+        <div class="rec-video">
+          <div class="thumbnail"></div>
+          <div class="rec-video-info">
+            <p class="title-m">Some video title</p>
+            <p class="xsmall-light-text">Channel name</p>
+            <p class="xsmall-light-text">1.7M views • 1 year ago</p>
+          </div>
+        </div>
+        <div class="rec-video">
+          <div class="thumbnail"></div>
+          <div class="rec-video-info">
+            <p class="title-m">Some video title</p>
+            <p class="xsmall-light-text">Channel name</p>
+            <p class="xsmall-light-text">1.7M views • 1 year ago</p>
+          </div>
+        </div>
+        <div class="rec-video">
+          <div class="thumbnail"></div>
+          <div class="rec-video-info">
+            <p class="title-m">Some video title</p>
+            <p class="xsmall-light-text">Channel name</p>
+            <p class="xsmall-light-text">1.7M views • 1 year ago</p>
+          </div>
+        </div>
       </aside>
     </main>
   </body>
